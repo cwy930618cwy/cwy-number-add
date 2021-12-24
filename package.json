@@ -1,0 +1,51 @@
+{
+    "name": "cwy-number-add",
+    "description": "number add",
+    "version": "1.0.0",
+    "homepage": "https://github.com/cwy930618cwy/cwy-number-add",
+    "author": "chenweiyu (https://github.com/cwy930618cwy)",
+    "repository": "cwy930618cwy/cwy-number-add",
+    "bugs": {
+      "url": "https://github.com/cwy930618cwy/cwy-number-add/issues"
+    },
+    "license": "MIT",
+    "files": [
+      "index.js"
+    ],
+    "main": "index.js",
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "test": "mocha"
+    },
+    "devDependencies": {
+      "gulp-format-md": "^0.1.11",
+      "mocha": "^3.2.0"
+    },
+    "keywords": [
+      "number",
+      "each"
+    ],
+    "verb": {
+      "toc": false,
+      "layout": "default",
+      "tasks": [
+        "readme"
+      ],
+      "plugins": [
+        "gulp-format-md"
+      ],
+      "related": {
+        "list": [
+          "collection-map",
+          "arr-filter",
+          "arr-map"
+        ]
+      },
+      "lint": {
+        "reflinks": true
+      }
+    },
+    "__npminstall_done": true
+  }
